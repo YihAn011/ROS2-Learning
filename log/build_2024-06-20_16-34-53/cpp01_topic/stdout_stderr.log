@@ -1,0 +1,25 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/demo01_talker_str.dir/src/demo01_talker_str.cpp.o[0m
+[01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo01_talker_str.cpp:16:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kprive[m[K’ does not name a type
+   16 |   [01;31m[Kprive[m[K:
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo01_talker_str.cpp:28:45:[m[K [01;31m[Kerror: [m[K‘[01m[KsharedPtr[m[K’ in ‘[01m[Kclass rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >[m[K’ does not name a type
+   28 |   rclcpp::Publisher<std_msgs::msg::String>::[01;31m[KsharedPtr[m[K publisher_;
+      |                                             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo01_talker_str.cpp:29:22:[m[K [01;31m[Kerror: [m[K‘[01m[KsharedPtr[m[K’ in ‘[01m[Kclass rclcpp::TimerBase[m[K’ does not name a type
+   29 |   rclcpp::TimerBase::[01;31m[KsharedPtr[m[K timer_;
+      |                      [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo01_talker_str.cpp:[m[K In constructor ‘[01m[KTalker::Talker()[m[K’:
+[01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo01_talker_str.cpp:13:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   13 |     [01;31m[Kpublisher_[m[K=this->create_publisher<std_msgs::msg::String>("chatter", 10);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+[01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo01_talker_str.cpp:14:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   14 |     [01;31m[Ktimer_[m[K=this->create_wall_timer(1s,std::bind(&Talker::on_timer,this));
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[Ktimer_t[m[K
+[01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo01_talker_str.cpp:14:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kon_timer[m[K’ is not a member of ‘[01m[KTalker[m[K’
+   14 |     timer_=this->create_wall_timer(1s,std::bind(&Talker::[01;31m[Kon_timer[m[K,this));
+      |                                                          [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/demo01_talker_str.dir/build.make:76: CMakeFiles/demo01_talker_str.dir/src/demo01_talker_str.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/demo01_talker_str.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,25 @@
+[0.004s] Invoking command in '/home/sora/Desktop/yihe/ws/src/build/cpp01_topic': AMENT_PREFIX_PATH=/home/sora/Desktop/yihe/ws/src/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sora/Desktop/yihe/ws/src/install/base_interfaces_demo:/opt/ros/humble /usr/bin/cmake --build /home/sora/Desktop/yihe/ws/src/build/cpp01_topic -- -j20 -l20
+[0.032s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_talker_str.dir/src/demo01_talker_str.cpp.o[0m
+[1.514s] [100%] [32m[1mLinking CXX executable demo01_talker_str[0m
+[1.577s] [100%] Built target demo01_talker_str
+[1.584s] Invoked command in '/home/sora/Desktop/yihe/ws/src/build/cpp01_topic' returned '0': AMENT_PREFIX_PATH=/home/sora/Desktop/yihe/ws/src/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sora/Desktop/yihe/ws/src/install/base_interfaces_demo:/opt/ros/humble /usr/bin/cmake --build /home/sora/Desktop/yihe/ws/src/build/cpp01_topic -- -j20 -l20
+[1.598s] Invoking command in '/home/sora/Desktop/yihe/ws/src/build/cpp01_topic': AMENT_PREFIX_PATH=/home/sora/Desktop/yihe/ws/src/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sora/Desktop/yihe/ws/src/install/base_interfaces_demo:/opt/ros/humble /usr/bin/cmake --install /home/sora/Desktop/yihe/ws/src/build/cpp01_topic
+[1.602s] -- Install configuration: ""
+[1.602s] -- Installing: /home/sora/Desktop/yihe/ws/src/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str
+[1.602s] -- Set runtime path of "/home/sora/Desktop/yihe/ws/src/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str" to ""
+[1.602s] -- Installing: /home/sora/Desktop/yihe/ws/src/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic
+[1.602s] -- Installing: /home/sora/Desktop/yihe/ws/src/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic
+[1.602s] -- Installing: /home/sora/Desktop/yihe/ws/src/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh
+[1.602s] -- Installing: /home/sora/Desktop/yihe/ws/src/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv
+[1.602s] -- Installing: /home/sora/Desktop/yihe/ws/src/install/cpp01_topic/share/cpp01_topic/environment/path.sh
+[1.603s] -- Installing: /home/sora/Desktop/yihe/ws/src/install/cpp01_topic/share/cpp01_topic/environment/path.dsv
+[1.603s] -- Installing: /home/sora/Desktop/yihe/ws/src/install/cpp01_topic/share/cpp01_topic/local_setup.bash
+[1.603s] -- Installing: /home/sora/Desktop/yihe/ws/src/install/cpp01_topic/share/cpp01_topic/local_setup.sh
+[1.603s] -- Installing: /home/sora/Desktop/yihe/ws/src/install/cpp01_topic/share/cpp01_topic/local_setup.zsh
+[1.603s] -- Installing: /home/sora/Desktop/yihe/ws/src/install/cpp01_topic/share/cpp01_topic/local_setup.dsv
+[1.603s] -- Installing: /home/sora/Desktop/yihe/ws/src/install/cpp01_topic/share/cpp01_topic/package.dsv
+[1.603s] -- Installing: /home/sora/Desktop/yihe/ws/src/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic
+[1.604s] -- Installing: /home/sora/Desktop/yihe/ws/src/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake
+[1.604s] -- Installing: /home/sora/Desktop/yihe/ws/src/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake
+[1.604s] -- Installing: /home/sora/Desktop/yihe/ws/src/install/cpp01_topic/share/cpp01_topic/package.xml
+[1.605s] Invoked command in '/home/sora/Desktop/yihe/ws/src/build/cpp01_topic' returned '0': AMENT_PREFIX_PATH=/home/sora/Desktop/yihe/ws/src/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sora/Desktop/yihe/ws/src/install/base_interfaces_demo:/opt/ros/humble /usr/bin/cmake --install /home/sora/Desktop/yihe/ws/src/build/cpp01_topic

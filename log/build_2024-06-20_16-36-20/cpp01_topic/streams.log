@@ -1,0 +1,28 @@
+[0.004s] Invoking command in '/home/sora/Desktop/yihe/ws/build/cpp01_topic': AMENT_PREFIX_PATH=/home/sora/Desktop/yihe/ws/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sora/Desktop/yihe/ws/install/base_interfaces_demo:/opt/ros/humble /usr/bin/cmake --build /home/sora/Desktop/yihe/ws/build/cpp01_topic -- -j20 -l20
+[0.027s] [35m[1mConsolidate compiler generated dependencies of target demo01_talker_str[0m
+[0.038s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_talker_str.dir/src/demo01_talker_str.cpp.o[0m
+[1.206s] [01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo01_talker_str.cpp:16:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kprive[m[K’ does not name a type
+[1.206s]    16 |   [01;31m[Kprive[m[K:
+[1.206s]       |   [01;31m[K^~~~~[m[K
+[1.207s] [01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo01_talker_str.cpp:28:45:[m[K [01;31m[Kerror: [m[K‘[01m[KsharedPtr[m[K’ in ‘[01m[Kclass rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >[m[K’ does not name a type
+[1.207s]    28 |   rclcpp::Publisher<std_msgs::msg::String>::[01;31m[KsharedPtr[m[K publisher_;
+[1.207s]       |                                             [01;31m[K^~~~~~~~~[m[K
+[1.207s] [01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo01_talker_str.cpp:29:22:[m[K [01;31m[Kerror: [m[K‘[01m[KsharedPtr[m[K’ in ‘[01m[Kclass rclcpp::TimerBase[m[K’ does not name a type
+[1.207s]    29 |   rclcpp::TimerBase::[01;31m[KsharedPtr[m[K timer_;
+[1.207s]       |                      [01;31m[K^~~~~~~~~[m[K
+[1.211s] [01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo01_talker_str.cpp:[m[K In constructor ‘[01m[KTalker::Talker()[m[K’:
+[1.211s] [01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo01_talker_str.cpp:13:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[1.211s]    13 |     [01;31m[Kpublisher_[m[K=this->create_publisher<std_msgs::msg::String>("chatter", 10);
+[1.211s]       |     [01;31m[K^~~~~~~~~~[m[K
+[1.211s]       |     [32m[Krmw_publisher_t[m[K
+[1.216s] [01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo01_talker_str.cpp:14:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[1.216s]    14 |     [01;31m[Ktimer_[m[K=this->create_wall_timer(1s,std::bind(&Talker::on_timer,this));
+[1.216s]       |     [01;31m[K^~~~~~[m[K
+[1.216s]       |     [32m[Ktimer_t[m[K
+[1.216s] [01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo01_talker_str.cpp:14:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kon_timer[m[K’ is not a member of ‘[01m[KTalker[m[K’
+[1.216s]    14 |     timer_=this->create_wall_timer(1s,std::bind(&Talker::[01;31m[Kon_timer[m[K,this));
+[1.216s]       |                                                          [01;31m[K^~~~~~~~[m[K
+[1.551s] gmake[2]: *** [CMakeFiles/demo01_talker_str.dir/build.make:76: CMakeFiles/demo01_talker_str.dir/src/demo01_talker_str.cpp.o] Error 1
+[1.551s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/demo01_talker_str.dir/all] Error 2
+[1.551s] gmake: *** [Makefile:146: all] Error 2
+[1.554s] Invoked command in '/home/sora/Desktop/yihe/ws/build/cpp01_topic' returned '2': AMENT_PREFIX_PATH=/home/sora/Desktop/yihe/ws/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sora/Desktop/yihe/ws/install/base_interfaces_demo:/opt/ros/humble /usr/bin/cmake --build /home/sora/Desktop/yihe/ws/build/cpp01_topic -- -j20 -l20

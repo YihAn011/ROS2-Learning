@@ -1,0 +1,10 @@
+[0.004s] Invoking command in '/home/sora/Desktop/yihe/ws/src/build/cpp01_topic': AMENT_PREFIX_PATH=/home/sora/Desktop/yihe/ws/src/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sora/Desktop/yihe/ws/src/install/base_interfaces_demo:/opt/ros/humble /usr/bin/cmake --build /home/sora/Desktop/yihe/ws/src/build/cpp01_topic -- -j20 -l20
+[0.034s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_talker_str.dir/src/demo01_talker_str.cpp.o[0m
+[0.040s] [01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo01_talker_str.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp.rclcpp.hpp: No such file or directory
+[0.040s]     1 | #include [01;31m[K"rclcpp.rclcpp.hpp"[m[K
+[0.040s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.040s] compilation terminated.
+[0.041s] gmake[2]: *** [CMakeFiles/demo01_talker_str.dir/build.make:76: CMakeFiles/demo01_talker_str.dir/src/demo01_talker_str.cpp.o] Error 1
+[0.041s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/demo01_talker_str.dir/all] Error 2
+[0.041s] gmake: *** [Makefile:146: all] Error 2
+[0.043s] Invoked command in '/home/sora/Desktop/yihe/ws/src/build/cpp01_topic' returned '2': AMENT_PREFIX_PATH=/home/sora/Desktop/yihe/ws/src/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sora/Desktop/yihe/ws/src/install/base_interfaces_demo:/opt/ros/humble /usr/bin/cmake --build /home/sora/Desktop/yihe/ws/src/build/cpp01_topic -- -j20 -l20
