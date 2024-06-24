@@ -1,4 +1,0 @@
-Invoking command in '/home/sora/Desktop/yihe/ws/build/base_interfaces_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sora/Desktop/yihe/ws/build/base_interfaces_demo -- -j20 -l20
-Invoked command in '/home/sora/Desktop/yihe/ws/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sora/Desktop/yihe/ws/build/base_interfaces_demo -- -j20 -l20
-Invoking command in '/home/sora/Desktop/yihe/ws/build/base_interfaces_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sora/Desktop/yihe/ws/build/base_interfaces_demo
-Invoked command in '/home/sora/Desktop/yihe/ws/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sora/Desktop/yihe/ws/build/base_interfaces_demo

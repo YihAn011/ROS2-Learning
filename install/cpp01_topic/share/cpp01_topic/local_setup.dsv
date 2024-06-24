@@ -1,2 +1,1 @@
-source;share/cpp01_topic/environment/ament_prefix_path.sh
-source;share/cpp01_topic/environment/path.sh
+/home/sora/Desktop/yihe/ws/build/cpp01_topic/ament_cmake_environment_hooks/local_setup.dsv

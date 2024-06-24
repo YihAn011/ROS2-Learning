@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/sora/Desktop/yihe/ws/build/cpp01_topic/demo01_talker_str" "/home/sora/Desktop/yihe/ws/build/cpp01_topic/demo02_listener_str" "TARGETS" "demo01_talker_str" "demo02_listener_str" "DESTINATION" "lib/cpp01_topic")

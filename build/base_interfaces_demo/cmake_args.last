@@ -1,1 +1,1 @@
-None
+['-DPYTHON_EXECUTABLE=/usr/bin/python3', '-DPYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython3.10.so', '-DAMENT_CMAKE_SYMLINK_INSTALL=1']

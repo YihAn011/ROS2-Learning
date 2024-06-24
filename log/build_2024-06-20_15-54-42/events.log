@@ -1,6 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000330] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
-[0.000359] (cpp01_topic) JobQueued: {'identifier': 'cpp01_topic', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/sora/Desktop/yihe/ws/install/base_interfaces_demo')])}
-[0.000382] (cpp01_topic) JobStarted: {'identifier': 'cpp01_topic'}
-[0.006826] (cpp01_topic) JobEnded: {'identifier': 'cpp01_topic', 'rc': 1}
-[0.017164] (-) EventReactorShutdown: {}

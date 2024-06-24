@@ -16,6 +16,7 @@ _colcon_prefix_chain_bash_source_script() {
     echo "not found: \"$1\"" 1>&2
   fi
 }
+
 # source chained prefixes
 # setting COLCON_CURRENT_PREFIX avoids determining the prefix in the sourced script
 COLCON_CURRENT_PREFIX="/opt/ros/humble"
