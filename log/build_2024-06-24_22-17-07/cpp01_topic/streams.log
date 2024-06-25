@@ -1,0 +1,91 @@
+[0.005s] Invoking command in '/home/sora/Desktop/yihe/ws/build/cpp01_topic': AMENT_PREFIX_PATH=/home/sora/Desktop/yihe/ws/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sora/Desktop/yihe/ws/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/sora/Desktop/yihe/ws/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sora/Desktop/yihe/ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sora/Desktop/yihe/ws/build/cpp01_topic -- -j20 -l20
+[0.026s] [35m[1mConsolidate compiler generated dependencies of target demo02_listener_str[0m
+[0.026s] [35m[1mConsolidate compiler generated dependencies of target demo03_talker_stu[0m
+[0.033s] [ 25%] Built target demo04_listener_stu
+[0.033s] [ 50%] Built target demo01_talker_str
+[0.039s] [ 75%] [32mBuilding CXX object CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.o[0m
+[0.039s] [ 87%] Built target demo02_listener_str
+[1.113s] [01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo03_talker_stu.cpp:4:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kbase_interfaces_demo::msgs[m[K’ has not been declared
+[1.113s]     4 | using base_interfaces_demo::[01;31m[Kmsgs[m[K::msg::Student;
+[1.113s]       |                             [01;31m[K^~~~[m[K
+[1.114s] [01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo03_talker_stu.cpp:16:27:[m[K [01;31m[Kerror: [m[K‘[01m[KStudent[m[K’ was not declared in this scope; did you mean ‘[01m[Kbase_interfaces_demo::msg::Student[m[K’?
+[1.114s]    16 |         rclcpp::Publisher<[01;31m[KStudent[m[K>::SharedPtr publisher_;
+[1.114s]       |                           [01;31m[K^~~~~~~[m[K
+[1.114s]       |                           [32m[Kbase_interfaces_demo::msg::Student[m[K
+[1.114s] In file included from [01m[K/home/sora/Desktop/yihe/ws/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp:7[m[K,
+[1.114s]                  from [01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo03_talker_stu.cpp:2[m[K:
+[1.114s] [01m[K/home/sora/Desktop/yihe/ws/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/detail/student__struct.hpp:150:7:[m[K [01;36m[Knote: [m[K‘[01m[Kbase_interfaces_demo::msg::Student[m[K’ declared here
+[1.114s]   150 | using [01;36m[KStudent[m[K =
+[1.114s]       |       [01;36m[K^~~~~~~[m[K
+[1.114s] [01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo03_talker_stu.cpp:16:34:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.114s]    16 |         rclcpp::Publisher<Student[01;31m[K>[m[K::SharedPtr publisher_;
+[1.114s]       |                                  [01;31m[K^[m[K
+[1.114s] [01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo03_talker_stu.cpp:16:37:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.114s]    16 |         rclcpp::Publisher<Student>::[01;31m[KSharedPtr[m[K publisher_;
+[1.115s]       |                                     [01;31m[K^~~~~~~~~[m[K
+[1.115s]       |                                              [32m[K;[m[K
+[1.115s] [01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo03_talker_stu.cpp:16:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[1.115s]    16 |         rclcpp::Publisher<Student>::SharedPtr [01;31m[Kpublisher_[m[K;
+[1.115s]       |                                               [01;31m[K^~~~~~~~~~[m[K
+[1.115s]       |                                               [32m[Krmw_publisher_t[m[K
+[1.118s] [01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo03_talker_stu.cpp:[m[K In constructor ‘[01m[KTalkerStu::TalkerStu()[m[K’:
+[1.118s] [01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo03_talker_stu.cpp:12:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[1.118s]    12 |             [01;31m[Kpublisher_[m[K = this->create_publisher<Student>("chatter_stu",10);
+[1.118s]       |             [01;31m[K^~~~~~~~~~[m[K
+[1.119s]       |             [32m[Krmw_publisher_t[m[K
+[1.119s] [01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo03_talker_stu.cpp:12:49:[m[K [01;31m[Kerror: [m[K‘[01m[KStudent[m[K’ was not declared in this scope; did you mean ‘[01m[Kbase_interfaces_demo::msg::Student[m[K’?
+[1.119s]    12 |             publisher_ = this->create_publisher<[01;31m[KStudent[m[K>("chatter_stu",10);
+[1.119s]       |                                                 [01;31m[K^~~~~~~[m[K
+[1.119s]       |                                                 [32m[Kbase_interfaces_demo::msg::Student[m[K
+[1.119s] In file included from [01m[K/home/sora/Desktop/yihe/ws/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp:7[m[K,
+[1.119s]                  from [01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo03_talker_stu.cpp:2[m[K:
+[1.119s] [01m[K/home/sora/Desktop/yihe/ws/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/detail/student__struct.hpp:150:7:[m[K [01;36m[Knote: [m[K‘[01m[Kbase_interfaces_demo::msg::Student[m[K’ declared here
+[1.119s]   150 | using [01;36m[KStudent[m[K =
+[1.119s]       |       [01;36m[K^~~~~~~[m[K
+[1.119s] [01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo03_talker_stu.cpp:12:57:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTalkerStu::create_publisher<<expression error> >(const char [12], int)[m[K’
+[1.119s]    12 |             publisher_ = [01;31m[Kthis->create_publisher<Student>("chatter_stu",10)[m[K;
+[1.119s]       |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[1.119s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.119s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[1.120s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.120s]                  from [01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo03_talker_stu.cpp:1[m[K:
+[1.120s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[1.120s]   195 |   [01;36m[Kcreate_publisher[m[K(
+[1.120s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[1.120s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.120s] [01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo03_talker_stu.cpp:12:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.120s]    12 |             publisher_ = [01;31m[Kthis->create_publisher<Student>("chatter_stu",10)[m[K;
+[1.120s]       |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[1.124s] [01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo03_talker_stu.cpp:[m[K In member function ‘[01m[Kvoid TalkerStu::on_timer()[m[K’:
+[1.124s] [01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo03_talker_stu.cpp:21:24:[m[K [01;31m[Kerror: [m[K‘[01m[KStudent[m[K’ was not declared in this scope; did you mean ‘[01m[Kbase_interfaces_demo::msg::Student[m[K’?
+[1.124s]    21 |             auto stu = [01;31m[KStudent[m[K();
+[1.124s]       |                        [01;31m[K^~~~~~~[m[K
+[1.124s]       |                        [32m[Kbase_interfaces_demo::msg::Student[m[K
+[1.124s] In file included from [01m[K/home/sora/Desktop/yihe/ws/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp:7[m[K,
+[1.124s]                  from [01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo03_talker_stu.cpp:2[m[K:
+[1.124s] [01m[K/home/sora/Desktop/yihe/ws/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/detail/student__struct.hpp:150:7:[m[K [01;36m[Knote: [m[K‘[01m[Kbase_interfaces_demo::msg::Student[m[K’ declared here
+[1.124s]   150 | using [01;36m[KStudent[m[K =
+[1.124s]       |       [01;36m[K^~~~~~~[m[K
+[1.127s] [01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo03_talker_stu.cpp:26:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[1.127s]    26 |             [01;31m[Kpublisher_[m[K -> publish(stu);
+[1.127s]       |             [01;31m[K^~~~~~~~~~[m[K
+[1.127s]       |             [32m[Krmw_publisher_t[m[K
+[1.127s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.127s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.127s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.128s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.128s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.128s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.128s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.128s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.128s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.128s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.128s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.128s]                  from [01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo03_talker_stu.cpp:1[m[K:
+[1.128s] [01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo03_talker_stu.cpp:27:45:[m[K [01;31m[Kerror: [m[Kunable to find string literal operator ‘[01m[Koperator""stu[m[K’ with ‘[01m[Kconst char [27][m[K’, ‘[01m[Klong unsigned int[m[K’ arguments
+[1.128s]    27 |             RCLCPP_INFO(this->get_logger(), [01;31m[K"published info(%s,%d,%.2f)"stu[m[K.name.c_str(),stu.age,stu.height);
+[1.128s]       |                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.352s] gmake[2]: *** [CMakeFiles/demo03_talker_stu.dir/build.make:76: CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.o] Error 1
+[1.352s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/demo03_talker_stu.dir/all] Error 2
+[1.352s] gmake: *** [Makefile:146: all] Error 2
+[1.355s] Invoked command in '/home/sora/Desktop/yihe/ws/build/cpp01_topic' returned '2': AMENT_PREFIX_PATH=/home/sora/Desktop/yihe/ws/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sora/Desktop/yihe/ws/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/sora/Desktop/yihe/ws/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sora/Desktop/yihe/ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sora/Desktop/yihe/ws/build/cpp01_topic -- -j20 -l20

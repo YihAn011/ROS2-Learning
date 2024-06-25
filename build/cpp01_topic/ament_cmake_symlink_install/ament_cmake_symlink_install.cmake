@@ -310,7 +310,7 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install("TARGETS" "demo01_talker_str" "demo02_listener_str" "DESTINATION" "lib/cpp01_topic")
+# install("TARGETS" "demo01_talker_str" "demo02_listener_str" "demo03_talker_stu" "demo04_listener_stu" "DESTINATION" "lib/cpp01_topic")
 include("/home/sora/Desktop/yihe/ws/build/cpp01_topic/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/sora/Desktop/yihe/ws/build/cpp01_topic/prefix_chain.bash" "DESTINATION" "share/cpp01_topic")

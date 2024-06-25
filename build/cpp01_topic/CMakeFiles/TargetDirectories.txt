@@ -2,6 +2,8 @@
 /home/sora/Desktop/yihe/ws/build/cpp01_topic/CMakeFiles/cpp01_topic_uninstall.dir
 /home/sora/Desktop/yihe/ws/build/cpp01_topic/CMakeFiles/demo01_talker_str.dir
 /home/sora/Desktop/yihe/ws/build/cpp01_topic/CMakeFiles/demo02_listener_str.dir
+/home/sora/Desktop/yihe/ws/build/cpp01_topic/CMakeFiles/demo03_talker_stu.dir
+/home/sora/Desktop/yihe/ws/build/cpp01_topic/CMakeFiles/demo04_listener_stu.dir
 /home/sora/Desktop/yihe/ws/build/cpp01_topic/CMakeFiles/test.dir
 /home/sora/Desktop/yihe/ws/build/cpp01_topic/CMakeFiles/edit_cache.dir
 /home/sora/Desktop/yihe/ws/build/cpp01_topic/CMakeFiles/rebuild_cache.dir

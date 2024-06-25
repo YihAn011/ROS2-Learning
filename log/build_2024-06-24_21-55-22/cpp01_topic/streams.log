@@ -1,0 +1,36 @@
+[0.005s] Invoking command in '/home/sora/Desktop/yihe/ws/build/cpp01_topic': AMENT_PREFIX_PATH=/home/sora/Desktop/yihe/ws/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sora/Desktop/yihe/ws/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/sora/Desktop/yihe/ws/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sora/Desktop/yihe/ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sora/Desktop/yihe/ws/build/cpp01_topic -- -j20 -l20
+[0.025s] [35m[1mConsolidate compiler generated dependencies of target demo03_talker_stu[0m
+[0.025s] [35m[1mConsolidate compiler generated dependencies of target demo04_listener_stu[0m
+[0.032s] [ 37%] Built target demo01_talker_str
+[0.032s] [ 50%] Built target demo02_listener_str
+[0.037s] [ 62%] [32mBuilding CXX object CMakeFiles/demo04_listener_stu.dir/src/demo04_listener_stu.cpp.o[0m
+[0.038s] [ 75%] [32mBuilding CXX object CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.o[0m
+[1.404s] [ 87%] [32m[1mLinking CXX executable demo04_listener_stu[0m
+[1.412s] [100%] [32m[1mLinking CXX executable demo03_talker_stu[0m
+[1.469s] [100%] Built target demo04_listener_stu
+[1.472s] [100%] Built target demo03_talker_stu
+[1.478s] Invoked command in '/home/sora/Desktop/yihe/ws/build/cpp01_topic' returned '0': AMENT_PREFIX_PATH=/home/sora/Desktop/yihe/ws/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sora/Desktop/yihe/ws/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/sora/Desktop/yihe/ws/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sora/Desktop/yihe/ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sora/Desktop/yihe/ws/build/cpp01_topic -- -j20 -l20
+[1.492s] Invoking command in '/home/sora/Desktop/yihe/ws/build/cpp01_topic': AMENT_PREFIX_PATH=/home/sora/Desktop/yihe/ws/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sora/Desktop/yihe/ws/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/sora/Desktop/yihe/ws/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sora/Desktop/yihe/ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sora/Desktop/yihe/ws/build/cpp01_topic
+[1.496s] -- Install configuration: ""
+[1.496s] -- Execute custom install script
+[1.496s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str
+[1.496s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/cpp01_topic/lib/cpp01_topic/demo02_listener_str
+[1.496s] -- Symlinking: /home/sora/Desktop/yihe/ws/install/cpp01_topic/lib/cpp01_topic/demo03_talker_stu
+[1.501s] -- Symlinking: /home/sora/Desktop/yihe/ws/install/cpp01_topic/lib/cpp01_topic/demo04_listener_stu
+[1.506s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/cpp01_topic/share/cpp01_topic/prefix_chain.bash
+[1.506s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic
+[1.506s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic
+[1.506s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh
+[1.506s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv
+[1.506s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/cpp01_topic/share/cpp01_topic/environment/path.sh
+[1.506s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/cpp01_topic/share/cpp01_topic/environment/path.dsv
+[1.506s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/cpp01_topic/share/cpp01_topic/local_setup.bash
+[1.506s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/cpp01_topic/share/cpp01_topic/local_setup.sh
+[1.506s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/cpp01_topic/share/cpp01_topic/local_setup.zsh
+[1.506s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/cpp01_topic/share/cpp01_topic/local_setup.dsv
+[1.506s] -- Symlinking: /home/sora/Desktop/yihe/ws/install/cpp01_topic/share/cpp01_topic/package.dsv
+[1.511s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic
+[1.511s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake
+[1.511s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake
+[1.511s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/cpp01_topic/share/cpp01_topic/package.xml
+[1.513s] Invoked command in '/home/sora/Desktop/yihe/ws/build/cpp01_topic' returned '0': AMENT_PREFIX_PATH=/home/sora/Desktop/yihe/ws/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sora/Desktop/yihe/ws/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/sora/Desktop/yihe/ws/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sora/Desktop/yihe/ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sora/Desktop/yihe/ws/build/cpp01_topic

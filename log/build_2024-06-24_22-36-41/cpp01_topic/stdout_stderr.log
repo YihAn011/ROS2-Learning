@@ -1,0 +1,14 @@
+[ 75%] [32mBuilding CXX object CMakeFiles/demo04_listener_stu.dir/src/demo04_listener_stu.cpp.o[0m
+[ 87%] Built target demo03_talker_stu
+[ 87%] Built target demo02_listener_str
+[ 87%] Built target demo01_talker_str
+[01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo04_listener_stu.cpp:18:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+   18 |         [01;31m[Krclcpp[m[K:Subscription<Student>::SharedPtr sub_;
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo04_listener_stu.cpp:[m[K In constructor ‘[01m[KListenerStu::ListenerStu()[m[K’:
+[01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo04_listener_stu.cpp:10:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_[m[K’ was not declared in this scope
+   10 |             [01;31m[Ksub_[m[K= this->create_subscription<Student>("chatter_stu",10,std::bind(&ListenerStu::do_cb,this,std::placeholders::_1));
+      |             [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/demo04_listener_stu.dir/build.make:76: CMakeFiles/demo04_listener_stu.dir/src/demo04_listener_stu.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/demo04_listener_stu.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

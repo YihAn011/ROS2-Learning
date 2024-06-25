@@ -1,0 +1,58 @@
+[01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo03_talker_stu.cpp:4:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kbase_interfaces_demo::msgs[m[K’ has not been declared
+    4 | using base_interfaces_demo::[01;31m[Kmsgs[m[K::msg::Student;
+      |                             [01;31m[K^~~~[m[K
+[01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo03_talker_stu.cpp:16:27:[m[K [01;31m[Kerror: [m[K‘[01m[KStudent[m[K’ was not declared in this scope; did you mean ‘[01m[Kbase_interfaces_demo::msg::Student[m[K’?
+   16 |         rclcpp::Publisher<[01;31m[KStudent[m[K>::SharedPtr publisher_;
+      |                           [01;31m[K^~~~~~~[m[K
+      |                           [32m[Kbase_interfaces_demo::msg::Student[m[K
+In file included from [01m[K/home/sora/Desktop/yihe/ws/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp:7[m[K,
+                 from [01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo03_talker_stu.cpp:2[m[K:
+[01m[K/home/sora/Desktop/yihe/ws/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/detail/student__struct.hpp:150:7:[m[K [01;36m[Knote: [m[K‘[01m[Kbase_interfaces_demo::msg::Student[m[K’ declared here
+  150 | using [01;36m[KStudent[m[K =
+      |       [01;36m[K^~~~~~~[m[K
+[01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo03_talker_stu.cpp:16:34:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   16 |         rclcpp::Publisher<Student[01;31m[K>[m[K::SharedPtr publisher_;
+      |                                  [01;31m[K^[m[K
+[01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo03_talker_stu.cpp:16:37:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   16 |         rclcpp::Publisher<Student>::[01;31m[KSharedPtr[m[K publisher_;
+      |                                     [01;31m[K^~~~~~~~~[m[K
+      |                                              [32m[K;[m[K
+[01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo03_talker_stu.cpp:16:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   16 |         rclcpp::Publisher<Student>::SharedPtr [01;31m[Kpublisher_[m[K;
+      |                                               [01;31m[K^~~~~~~~~~[m[K
+      |                                               [32m[Krmw_publisher_t[m[K
+[01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo03_talker_stu.cpp:[m[K In constructor ‘[01m[KTalkerStu::TalkerStu()[m[K’:
+[01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo03_talker_stu.cpp:12:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   12 |             [01;31m[Kpublisher_[m[K = this->create_publisher<Student>("chatter_stu",10);
+      |             [01;31m[K^~~~~~~~~~[m[K
+      |             [32m[Krmw_publisher_t[m[K
+[01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo03_talker_stu.cpp:12:49:[m[K [01;31m[Kerror: [m[K‘[01m[KStudent[m[K’ was not declared in this scope; did you mean ‘[01m[Kbase_interfaces_demo::msg::Student[m[K’?
+   12 |             publisher_ = this->create_publisher<[01;31m[KStudent[m[K>("chatter_stu",10);
+      |                                                 [01;31m[K^~~~~~~[m[K
+      |                                                 [32m[Kbase_interfaces_demo::msg::Student[m[K
+In file included from [01m[K/home/sora/Desktop/yihe/ws/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp:7[m[K,
+                 from [01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo03_talker_stu.cpp:2[m[K:
+[01m[K/home/sora/Desktop/yihe/ws/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/detail/student__struct.hpp:150:7:[m[K [01;36m[Knote: [m[K‘[01m[Kbase_interfaces_demo::msg::Student[m[K’ declared here
+  150 | using [01;36m[KStudent[m[K =
+      |       [01;36m[K^~~~~~~[m[K
+[01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo03_talker_stu.cpp:12:57:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTalkerStu::create_publisher<<expression error> >(const char [12], int)[m[K’
+   12 |             publisher_ = [01;31m[Kthis->create_publisher<Student>("chatter_stu",10)[m[K;
+      |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo03_talker_stu.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  195 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo03_talker_stu.cpp:12:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   12 |             publisher_ = [01;31m[Kthis->create_publisher<Student>("chatter_stu",10)[m[K;
+      |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sora/Desktop/yihe/ws/src/cpp01_topic/src/demo03_talker_stu.cpp:13:75:[m[K [01;31m[Kerror: [m[K‘[01m[Kno_timer[m[K’ is not a member of ‘[01m[KTalkerStu[m[K’
+   13 |             timer_ = this->create_wall_timer(500ms, std::bind(&TalkerStu::[01;31m[Kno_timer[m[K,this));
+      |                                                                           [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/demo03_talker_stu.dir/build.make:76: CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/demo03_talker_stu.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

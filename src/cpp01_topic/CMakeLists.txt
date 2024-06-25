@@ -13,6 +13,8 @@ find_package(base_interfaces_demo REQUIRED)
 
 add_executable(demo01_talker_str src/demo01_talker_str.cpp)
 add_executable(demo02_listener_str src/demo02_listener_str.cpp)
+add_executable(demo03_talker_stu src/demo03_talker_stu.cpp)
+add_executable(demo04_listener_stu src/demo04_listener_stu.cpp)
 
 target_include_directories(demo01_talker_str PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
@@ -33,9 +35,25 @@ ament_target_dependencies(
   "base_interfaces_demo"
 )
 
+ament_target_dependencies(
+  demo03_talker_stu
+  "rclcpp"
+  "std_msgs"
+  "base_interfaces_demo"
+)
+
+ament_target_dependencies(
+  demo04_listener_stu
+  "rclcpp"
+  "std_msgs"
+  "base_interfaces_demo"
+)
+
 install(TARGETS 
   demo01_talker_str
   demo02_listener_str
+  demo03_talker_stu
+  demo04_listener_stu
   DESTINATION lib/${PROJECT_NAME})
 
 # Generate and install prefix_chain.bash
