@@ -1,0 +1,180 @@
+[0.006s] Invoking command in '/home/sora/Desktop/yihe/ws/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sora/Desktop/yihe/ws/build/base_interfaces_demo -- -j20 -l20
+[0.019s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.085s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.089s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.090s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.091s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.108s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.269s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.372s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.513s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.527s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.541s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.542s] -- Using PYTHON_INCLUDE_DIRS: /usr/local/include/python3.10
+[0.542s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.614s] -- Using numpy include directory: /home/sora/.local/lib/python3.10/site-packages/numpy/core/include
+[0.618s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.622s] -- Configuring done
+[0.636s] -- Generating done
+[0.637s] -- Build files have been written to: /home/sora/Desktop/yihe/ws/build/base_interfaces_demo
+[0.651s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_generator_c[0m
+[0.657s] [  3%] Built target base_interfaces_demo__cpp
+[0.657s] [  6%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/student__functions.c.o[0m
+[0.661s] [  6%] Built target ament_cmake_python_symlink_base_interfaces_demo
+[0.662s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_introspection_cpp[0m
+[0.662s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_cpp[0m
+[0.662s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_fastrtps_cpp[0m
+[0.670s] [ 12%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/msg/detail/dds_fastrtps/student__type_support.cpp.o[0m
+[0.670s] [ 12%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/msg/student__type_support.cpp.o[0m
+[0.670s] [ 16%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/msg/detail/student__type_support.cpp.o[0m
+[0.682s] [ 19%] [32m[1mLinking C shared library libbase_interfaces_demo__rosidl_generator_c.so[0m
+[0.702s] [ 22%] Built target base_interfaces_demo__rosidl_generator_c
+[0.708s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_introspection_c[0m
+[0.708s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_fastrtps_c[0m
+[0.711s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_c[0m
+[0.714s] [ 25%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/student__type_support.c.o[0m
+[0.717s] [ 29%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/msg/detail/student__type_support_c.cpp.o[0m
+[0.718s] [ 32%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/msg/student__type_support.cpp.o[0m
+[0.733s] [ 35%] [32m[1mLinking C shared library libbase_interfaces_demo__rosidl_typesupport_introspection_c.so[0m
+[0.736s] [ 38%] [32m[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_c.so[0m
+[0.753s] [ 41%] Built target base_interfaces_demo__rosidl_typesupport_introspection_c
+[0.762s] [ 45%] Built target base_interfaces_demo__rosidl_typesupport_c
+[0.805s] [ 48%] [32m[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_cpp.so[0m
+[0.828s] [ 51%] Built target base_interfaces_demo__rosidl_typesupport_cpp
+[0.851s] running egg_info
+[0.852s] writing base_interfaces_demo.egg-info/PKG-INFO
+[0.852s] writing dependency_links to base_interfaces_demo.egg-info/dependency_links.txt
+[0.852s] writing top-level names to base_interfaces_demo.egg-info/top_level.txt
+[0.853s] reading manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'
+[0.853s] writing manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'
+[0.861s] [ 54%] [32m[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so[0m
+[0.866s] [ 58%] [32m[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so[0m
+[0.870s] [ 58%] Built target ament_cmake_python_build_base_interfaces_demo_egg
+[0.889s] [ 61%] [32m[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so[0m
+[0.897s] [ 64%] Built target base_interfaces_demo__rosidl_typesupport_introspection_cpp
+[0.907s] [ 67%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_cpp
+[0.930s] [ 70%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_c
+[0.940s] [ 70%] Built target base_interfaces_demo
+[0.951s] [ 74%] Built target base_interfaces_demo__py
+[0.957s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_generator_py[0m
+[0.964s] [ 77%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_py.dir/rosidl_generator_py/base_interfaces_demo/msg/_student_s.c.o[0m
+[1.016s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/libbase_interfaces_demo__rosidl_generator_py.so[0m
+[1.038s] [ 80%] Built target base_interfaces_demo__rosidl_generator_py
+[1.044s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_c__pyext[0m
+[1.044s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_introspection_c__pyext[0m
+[1.044s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.052s] [ 83%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_c.c.o[0m
+[1.052s] [ 90%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[1.052s] [ 90%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[1.099s] [100%] [32m[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.100s] [100%] [32m[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.100s] [100%] [32m[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.118s] [100%] Built target base_interfaces_demo__rosidl_typesupport_c__pyext
+[1.118s] [100%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext
+[1.118s] [100%] Built target base_interfaces_demo__rosidl_typesupport_introspection_c__pyext
+[1.124s] Invoked command in '/home/sora/Desktop/yihe/ws/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sora/Desktop/yihe/ws/build/base_interfaces_demo -- -j20 -l20
+[1.157s] Invoking command in '/home/sora/Desktop/yihe/ws/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sora/Desktop/yihe/ws/build/base_interfaces_demo
+[1.161s] -- Install configuration: ""
+[1.162s] -- Execute custom install script
+[1.162s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/ament_index/resource_index/rosidl_interfaces/base_interfaces_demo
+[1.162s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__functions.h
+[1.162s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__struct.h
+[1.162s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.h
+[1.162s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_generator_c__visibility_control.h
+[1.162s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/student.h
+[1.162s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/environment/library_path.sh
+[1.163s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/environment/library_path.dsv
+[1.163s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_fastrtps_c.h
+[1.163s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.163s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_introspection_c.h
+[1.163s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.163s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__builder.hpp
+[1.163s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__struct.hpp
+[1.163s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__traits.hpp
+[1.163s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/student.hpp
+[1.163s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_fastrtps_cpp.hpp
+[1.163s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.163s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_introspection_cpp.hpp
+[1.163s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/environment/pythonpath.sh
+[1.164s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/environment/pythonpath.dsv
+[1.164s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/PKG-INFO
+[1.164s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.164s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.164s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/top_level.txt
+[1.164s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/__init__.py
+[1.164s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_c.c
+[1.164s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.164s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_introspection_c.c
+[1.164s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.164s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.164s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.164s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/libbase_interfaces_demo__rosidl_generator_py.so
+[1.164s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/__init__.py
+[1.164s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/_student.py
+[1.164s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/_student_s.c
+[1.165s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.165s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.165s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.165s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/Student.idl
+[1.165s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/msg/Student.msg
+[1.165s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/ament_index/resource_index/package_run_dependencies/base_interfaces_demo
+[1.165s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/ament_index/resource_index/parent_prefix_path/base_interfaces_demo
+[1.165s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.sh
+[1.165s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.dsv
+[1.165s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.sh
+[1.165s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.dsv
+[1.165s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.bash
+[1.166s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.sh
+[1.166s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.zsh
+[1.166s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.dsv
+[1.166s] -- Symlinking: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv
+[1.172s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/ament_index/resource_index/packages/base_interfaces_demo
+[1.172s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake-extras.cmake
+[1.172s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.172s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_libraries-extras.cmake
+[1.172s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_targets-extras.cmake
+[1.172s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.172s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.172s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.172s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig.cmake
+[1.172s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig-version.cmake
+[1.172s] -- Up-to-date symlink: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/package.xml
+[1.173s] -- Installing: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_c.so
+[1.173s] -- Set runtime path of "/home/sora/Desktop/yihe/ws/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_c.so" to ""
+[1.173s] -- Installing: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so
+[1.173s] -- Set runtime path of "/home/sora/Desktop/yihe/ws/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so" to ""
+[1.173s] -- Installing: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_c.so
+[1.173s] -- Set runtime path of "/home/sora/Desktop/yihe/ws/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_c.so" to ""
+[1.173s] -- Installing: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_c.so
+[1.173s] -- Set runtime path of "/home/sora/Desktop/yihe/ws/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_c.so" to ""
+[1.173s] -- Installing: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so
+[1.174s] -- Set runtime path of "/home/sora/Desktop/yihe/ws/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so" to ""
+[1.174s] -- Installing: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so
+[1.174s] -- Set runtime path of "/home/sora/Desktop/yihe/ws/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so" to ""
+[1.174s] -- Installing: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_cpp.so
+[1.174s] -- Set runtime path of "/home/sora/Desktop/yihe/ws/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_cpp.so" to ""
+[1.194s] Listing '/home/sora/Desktop/yihe/ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo'...
+[1.194s] Compiling '/home/sora/Desktop/yihe/ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/__init__.py'...
+[1.194s] Listing '/home/sora/Desktop/yihe/ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg'...
+[1.194s] Compiling '/home/sora/Desktop/yihe/ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/__init__.py'...
+[1.194s] Compiling '/home/sora/Desktop/yihe/ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/_student.py'...
+[1.197s] -- Installing: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_py.so
+[1.197s] -- Set runtime path of "/home/sora/Desktop/yihe/ws/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_py.so" to ""
+[1.197s] -- Up-to-date: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cExport.cmake
+[1.197s] -- Up-to-date: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cExport-noconfig.cmake
+[1.197s] -- Up-to-date: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cExport.cmake
+[1.197s] -- Up-to-date: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.197s] -- Up-to-date: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cExport.cmake
+[1.198s] -- Up-to-date: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.198s] -- Up-to-date: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cExport.cmake
+[1.198s] -- Up-to-date: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cExport-noconfig.cmake
+[1.198s] -- Up-to-date: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cppExport.cmake
+[1.198s] -- Up-to-date: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.198s] -- Up-to-date: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.198s] -- Up-to-date: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cppExport.cmake
+[1.198s] -- Up-to-date: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.198s] -- Up-to-date: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cppExport.cmake
+[1.198s] -- Up-to-date: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cppExport-noconfig.cmake
+[1.198s] -- Up-to-date: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_pyExport.cmake
+[1.198s] -- Up-to-date: /home/sora/Desktop/yihe/ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_pyExport-noconfig.cmake
+[1.199s] Invoked command in '/home/sora/Desktop/yihe/ws/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sora/Desktop/yihe/ws/build/base_interfaces_demo
